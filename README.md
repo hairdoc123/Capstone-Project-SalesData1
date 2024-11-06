@@ -26,7 +26,7 @@ The primary source of Data used here is DataSales.csv
 
 ### Tools Used
 
-- Microsoft Excel
+- Microsoft Excel [Download Here](https://www.microsoft.com)
     1. For Data Cleaning,
     2. For Analysis
     3. For Visualization
@@ -35,6 +35,6 @@ The primary source of Data used here is DataSales.csv
 
 - Power BI: For Data Cleaning And Visualization
 
-- GitHub fir Portfolio Building
+- GitHub for Portfolio Building
 
 
