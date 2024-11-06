@@ -37,4 +37,33 @@ The primary source of Data used here is DataSales.csv
 
 - GitHub for Portfolio Building
 
+### Data Clening And Preparation
+
+In the initial phase of the data cleaning and preparation, we perform the following actions;
+
+1. Data loading and Inspection
+2. Removing Duplicates
+3. Data cleaning and Formating
+
+### Exploratory Data Analysis (EDA)
+
+EDA involved the exploration of the Data to answer some questions above the Data such as;
+
+- retrieve the total sales for each product category.
+  
+- find the number of sales transactions in each region.
+
+- find the highest-selling product by total sales value.
+
+- calculate total revenue per product.
+
+- calculate monthly sales totals for the current year.
+  
+- find the top 5 customers by total purchase amount.
+  
+- calculate the percentage of total sales contributed by each region.
+  
+- identify products with no sales in the last quarter.
+
+
 
