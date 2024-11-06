@@ -69,69 +69,78 @@ EDA involved the exploration of the Data to answer some questions above the Data
 This is where we include  some basic lines of queries and some of the DAX expressions used during your analysis;
 
 .....SALESDATA PROJECT........ 
-```Select * from [dbo].[SalesDatacsv1]
+```
+Select * from [dbo].[SalesDatacsv1]
+```
 
 1..... Total number of each product category....
 
-```Select Product, SUM(Total_Revenue) As Total_Sales
+```SQL
+Select Product, SUM(Total_Revenue) As Total_Sales
 From [dbo].[SalesDatacsv1]
 Group By Product
+```
 
 2. 	.....NUMBER OF SALES TRANSACTIONS PER REGION....
-
-```Select Region, COUNT(OrderID) As Number_Of_SalesTrans
+   
+```SQL
+Select Region, COUNT(OrderID) As Number_Of_SalesTrans
 From [dbo].[SalesDatacsv1]
 Group By Region
-
+```
 
 3. .....The highest selling product by total sales value..... 
 
-```Select Top(1) Product, Sum(Total_Revenue) As Total_Sales
+```SQL
+Select Top(1) Product, Sum(Total_Revenue) As Total_Sales
 From [dbo].[SalesDatacsv1]
 Group By Product
+```
 
 4. .....TOTAL REVENURE PER PRODUCT.....
 
-```Select Product, SUM(Total_Revenue) As Total_sales
+```SQL
+Select Product, SUM(Total_Revenue) As Total_sales
 From [dbo].[SalesDatacsv1]
 Group By Product
-
+```
  
 5.  ....Monthly sales total for the current year....
 
-```Select Month(OrderDate) As Month, SUM(Total_Revenue) AS MonthlySales_Total
+```SQL
+Select Month(OrderDate) As Month, SUM(Total_Revenue) AS MonthlySales_Total
 From [dbo].[SalesDatacsv1]
 	WHERE
 		YEAR(OrderDate) = 2024
 GROUP BY MONTH(OrderDate)
-
+```
 
 6. ....Top 5 customers by total purchase amount....
 
-```Select Top (5) Customer_id, SUM(Total_Revenue) As TotalPurchase_Amount
+```SQL
+Select Top (5) Customer_id, SUM(Total_Revenue) As TotalPurchase_Amount
 From [dbo].[SalesDatacsv1]
 Group By Customer_id
 Order By TotalPurchase_Amount DESC
-
+```
 
 7.   ..... Calculate the Percentage of Total sales Contribution By Region....
 
-```SELECT Region, sum(Total_Revenue) AS Regional_Sales,
+```SQL
+SELECT Region, sum(Total_Revenue) AS Regional_Sales,
 CONCAT(ROUND(SUM(Total_Revenue)/ (Select sum(Total_Revenue) from [dbo].[SalesDatacsv1]) * 100,2), '%') As Sales_Percentage
 From [dbo].[SalesDatacsv1]
 Group By Region
 Order By Regional_Sales DESC
-
+```
 
 8. .....identify product with no sales in the last quarder....
 
-```SELECT PRODUCT from [dbo].[SalesDatacsv1]
+```SQL
+SELECT PRODUCT from [dbo].[SalesDatacsv1]
 where product NOT IN (select distinct product from [dbo].[SalesDatacsv1]
 where orderDate>=DateAdd(Quarter, -1, GETDATE()))
 group by product;
-
-
-
-
+```
 
 
