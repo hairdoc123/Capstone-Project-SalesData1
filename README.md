@@ -6,6 +6,7 @@
 
 This project analysed the sales performance of a retail store, identify trends, sales performance of each products and the region that makes the highest sales.
 
+
 ### Column Description
 - OrderID: A unique identfier for each order placed by a customer
 
@@ -36,7 +37,7 @@ The primary source of Data used here is DataSales.csv
 
 - GitHub for Portfolio Building
 
-### Data Clening And Preparation
+### Data Cleaning And Preparation
 
 In the initial phase of the data cleaning and preparation, we perform the following actions;
 
@@ -143,6 +144,6 @@ where orderDate>=DateAdd(Quarter, -1, GETDATE()))
 group by product;
 ```
 
-
+### Data Visualization
 
 
