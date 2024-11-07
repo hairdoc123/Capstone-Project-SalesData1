@@ -22,12 +22,15 @@ This project analysed the sales performance of a retail store, identify trends, 
 
 ### Data Sources
 
-The primary source of Data used here is DataSales.csv
+The Data used was provided by Lita-Incubator-Hub for the purpose of Training and learning
+
+![SalesData table](https://github.com/user-attachments/assets/f7a671f3-aad0-4c2e-8a6f-60ef139f989c)
+
 
 ### Tools Used
 
 - Microsoft Excel [Download Here](https://www.microsoft.com)
-    1. For Data Cleaning,
+    1. For Data Cleaning
     2. For Analysis
     3. For Visualization
 
