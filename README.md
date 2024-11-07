@@ -143,6 +143,6 @@ where orderDate>=DateAdd(Quarter, -1, GETDATE()))
 group by product;
 ```
 
-### Data Visualization
+
 
 
