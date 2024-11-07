@@ -146,4 +146,12 @@ group by product;
 
 ### Data Visualization
 
+![SaleData Charts](https://github.com/user-attachments/assets/e3194165-86e8-4658-a97b-2996566f6a06)
+
+
+![SalesData Pivot](https://github.com/user-attachments/assets/856bc842-0bbc-4e27-8081-6bf25ded7af3)
+
+
+
+
 
