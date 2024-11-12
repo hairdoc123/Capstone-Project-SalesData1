@@ -2,21 +2,21 @@
 
 ### OUTLINE
 
-[PROJECT TOPIC](#projecttopic)
+[PROJECT TOPIC](#project_topic)
 
-[COLUMN DESCRIPTION](#columndescription)
+[COLUMN DESCRIPTION](#column_description)
 
-[DATA SOURCE](#datasource)
+[DATA SOURCE](#data_source)
 
-[TOOLS USED](#toolsused)
+[TOOLS USED](#tool_sused)
 
-[DATA CLEANING AND PREPARATION](#datacleaningandpreparation)
+[DATA CLEANING AND PREPARATION](#data_cleaning_and_preparation)
 
-[EXPLORATORY DATA ANALYSIS (EDA)](#exploratorydataanalysis)
+[EXPLORATORY DATA ANALYSIS (EDA)](#exploratory_data_analysis)
 
-[DATA ANALYSIS](#dataanalysis)
+[DATA ANALYSIS](#data_analysis)
 
-[DATA VISUALIzATION](#datavisualization)
+[DATA VISUALIzATION](#data_visualization)
 
 ### Project Topic: SalesData Analysis
 
