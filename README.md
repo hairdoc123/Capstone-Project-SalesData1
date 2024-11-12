@@ -2,7 +2,7 @@
 
 ### OUTLINE
 
-[PROJECT TOPIC](projecttopic)
+[PROJECT TOPIC](#projecttopic)
 
 [COLUMN DESCRIPTION](columndescription)
 
