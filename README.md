@@ -4,19 +4,19 @@
 
 [PROJECT TOPIC](#projecttopic)
 
-[COLUMN DESCRIPTION](columndescription)
+[COLUMN DESCRIPTION](#columndescription)
 
-[DATA SOURCE](datasource)
+[DATA SOURCE](#datasource)
 
-[TOOLS USED](toolsused)
+[TOOLS USED](#toolsused)
 
-[DATA CLEANING AND PREPARATION](datacleaningandpreparation)
+[DATA CLEANING AND PREPARATION](#datacleaningandpreparation)
 
-[EXPLORATORY DATA ANALYSIS (EDA)](exploratorydataanalysis)
+[EXPLORATORY DATA ANALYSIS (EDA)](#exploratorydataanalysis)
 
-[DATA ANALYSIS](dataanalysis)
+[DATA ANALYSIS](#dataanalysis)
 
-[DATA VISUALIzATION](datavisualization)
+[DATA VISUALIzATION](#datavisualization)
 
 ### Project Topic: SalesData Analysis
 
