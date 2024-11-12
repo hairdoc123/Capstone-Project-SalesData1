@@ -1,5 +1,23 @@
 # Capstone-Project-SalesData1
 
+### OUTLINE
+
+[PROJECT TOPIC](projecttopic)
+
+[COLUMN DESCRIPTION](columndescription)
+
+[DATA SOURCE](datasource)
+
+[TOOLS USED](toolsused)
+
+[DATA CLEANING AND PREPARATION](datacleaningandpreparation)
+
+[EXPLORATORY DATA ANALYSIS (EDA)](exploratorydataanalysis)
+
+[DATA ANALYSIS](dataanalysis)
+
+[DATA VISUALIzATION](datavisualization)
+
 ### Project Topic: SalesData Analysis
 
 ### Project Overview
